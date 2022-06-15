@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background: #6fadd1;
+    background: #91c1dd;
     margin: 0;
     font-family: 'Exo 2';
 }
@@ -35,7 +42,6 @@ body {
 .navbar .mobile-menu {
     float: right;
     margin: .5em;
-    margin-right: 2.5em;
     cursor: pointer;
 }
 
@@ -76,6 +82,10 @@ nav li a:hover {
 
 a {color: #290991; text-decoration:none;}
 
+p {
+    line-height: 1.5em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -100,7 +110,7 @@ section {
     margin-top: 5em;
     font-weight: bold;
     color: rgb(24, 24, 104);
-    line-height: 0em;
+    line-height: 0;
     font-size: 1.2em;
 }
 
@@ -116,7 +126,7 @@ section {
 
 .left-col .links-cta{
     display: block;
-    margin-top: 1em;
+    margin-top: .6em;
     margin-bottom: .5em;
 
 }
@@ -150,10 +160,13 @@ ul.links li {
 
 h1 {
     font-size: 2.5em;
+    line-height: 2em;
 }
 
 h2 {
     font-size: 2em;
+    line-height: 2.5em;
+    margin-top: -2em;
 }
 
 label {
@@ -167,6 +180,7 @@ label {
     padding: 0;
     /* also center it *
 } */
+.contact-section .contact-left {margin-top: 1em;}
 
 input, textarea {
     width: 100%;
