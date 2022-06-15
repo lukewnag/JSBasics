@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #6fadd1;
     margin: 0;
